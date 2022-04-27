@@ -3,7 +3,7 @@ body {
     "Lucida Sans Unicode";
   font-size: x-large;
   color: white;
-  background-image: url("green-leafed-plant.jpeg");
+  background-image: url("images/green-leafed-plant.jpeg");
   background-position: fixed;
   background-size: contain;
 }
