@@ -1,0 +1,113 @@
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode";
+  font-size: x-large;
+  color: white;
+  background-image: url("green-leafed-plant.jpeg");
+  background-position: fixed;
+  background-size: contain;
+}
+header {
+  display: flex;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  margin-bottom: 3rem;
+  align-items: center;
+  border-bottom: 2px solid white;
+}
+form {
+  display: flex;
+  justify-content: flex-end;
+  margin: 5rem;
+  margin-right: 0;
+  align-items: flex-start;
+}
+#search {
+  height: 2.1rem;
+}
+#icon {
+  height: 2rem;
+  border: 1px solid black;
+}
+h1 {
+  font-family: Gurmukhi MN;
+  font-size: 5rem;
+  text-align: left;
+  flex: 1;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20rem;
+  padding-right: 20rem;
+  padding-bottom: 3rem;
+}
+nav a {
+  color: white;
+  font-weight: bold;
+}
+main {
+  background-color: rgb(232, 237, 220);
+  width: 70%;
+  margin: 10rem;
+  margin-top: 0;
+  height: fit-content;
+  padding: 5rem;
+  color: black;
+  border-radius: 2%;
+}
+h2,
+h3 {
+  text-align: center;
+}
+.description {
+  display: flex;
+  justify-content: space-between;
+  margin: 5rem;
+}
+.info {
+  font-style: italic;
+  line-height: 1;
+  margin-left: 5rem;
+}
+.ingredients {
+  font-weight: bold;
+  margin: 3rem 0 0 5rem;
+}
+ul,
+.instructions {
+  border-bottom: solid 2px black;
+  margin-left: 5rem;
+  padding-bottom: 2rem;
+}
+li {
+  line-height: 1.5;
+}
+
+#crostini {
+  width: 50%;
+  margin-right: 3rem;
+}
+.recommendations {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
+.pics img {
+  height: auto;
+  width: 15rem;
+}
+.name {
+  text-align: center;
+  margin-top: 3rem;
+  width: 15rem;
+}
+.name a {
+  color: black;
+  text-decoration: underline;
+  font-weight: bold;
+}
