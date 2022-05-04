@@ -75,8 +75,11 @@ function getComment() {
   document.getElementById("comment").value = "";
 }
 
-const postButton = document.getElementById("post-comment");
+function getReview() {
+  getName();
+  getDate();
+  getComment();
+}
 
-postButton.addEventListener("click", getName);
-postButton.addEventListener("click", getDate);
-postButton.addEventListener("click", getComment);
+const postButton = document.getElementById("post-comment");
+postButton.addEventListener("click", getReview);
