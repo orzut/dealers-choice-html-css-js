@@ -2,12 +2,16 @@
   <head>
     <title>The Dream Kitchen</title>
     <link rel="stylesheet" href="main.css" />
+    <script
+      src="https://kit.fontawesome.com/789e6d4484.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
 
   <body>
     <header>
       <h1>The Dream Kitchen</h1>
-      <form>
+      <form class="search">
         <input type="text" placeholder="search..." id="search" />
         <input type="image" src="images/magnifying-glass.jpeg" id="icon" />
       </form>
@@ -107,6 +111,33 @@
           </div>
         </div>
       </div>
+
+      <form>
+        <div id="post-review">
+          <h3>Leave a comment and Rating</h3>
+          <div class="rating">
+            Rate the recipe:
+            <span class="fa-regular fa-star" id="star1"></span>
+            <span class="fa-regular fa-star" id="star2"></span>
+            <span class="fa-regular fa-star" id="star3"></span>
+            <span class="fa-regular fa-star" id="star4"></span>
+            <span class="fa-regular fa-star" id="star5"></span>
+          </div>
+          <div class="user-info">
+            <label for="username">Name:</label>
+            <input type="text" id="username" />
+            <label for="email">E-mail:</label>
+            <input type="text" id="email" />
+          </div>
+          <label for="comment">Comment:</label>
+          <textarea id="comment" placeholder="Your comment..."></textarea>
+          <button id="post-comment">post comment</button>
+        </div>
+      </form>
+      <div id="reviews">
+        <h3>Reviews</h3>
+      </div>
     </main>
+    <script type="text/javascript" src="script.js"></script>
   </body>
 </html>

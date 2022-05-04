@@ -15,7 +15,7 @@ header {
   align-items: center;
   border-bottom: 2px solid white;
 }
-form {
+.search {
   display: flex;
   justify-content: flex-end;
   margin: 5rem;
@@ -93,8 +93,9 @@ li {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin-left: 5rem;
-  margin-right: 5rem;
+  margin: 5rem;
+  padding-bottom: 5rem;
+  border-bottom: solid 2px black;
 }
 
 .pics img {
@@ -110,4 +111,69 @@ li {
   color: black;
   text-decoration: underline;
   font-weight: bold;
+}
+.name a:hover {
+  color: rgb(233, 151, 42);
+}
+
+#post-review {
+  margin: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 5rem;
+  border-bottom: solid 2px black;
+}
+
+#comment {
+  width: 40rem;
+  height: 20rem;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 10px;
+  font-size: 1.5rem;
+}
+
+.rating {
+  margin-bottom: 2rem;
+}
+.user-info > input {
+  height: 2rem;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  text-align: left;
+  margin: 1rem;
+}
+
+#post-comment {
+  margin: 2rem;
+  width: 10rem;
+  height: 3rem;
+  border: none;
+  border-radius: 5px;
+  border-style: outset;
+  font-size: 1rem;
+  text-transform: uppercase;
+  background-color: rgb(249, 249, 217);
+}
+
+.date {
+  font-size: 1rem;
+  color: rgb(160, 160, 160);
+}
+
+.rating > span:hover {
+  color: rgb(252, 209, 93);
+  cursor: pointer;
+}
+
+.colored {
+  color: rgb(252, 209, 93);
+}
+.p1-font {
+  font-size: 1.3rem;
+  font-style: italic;
+  border-bottom: solid 1px black;
+  display: block;
+  padding-bottom: 2rem;
 }
