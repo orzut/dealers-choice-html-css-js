@@ -75,7 +75,8 @@ function getComment() {
   document.getElementById("comment").value = "";
 }
 
-function getReview() {
+function getReview(e) {
+  e.preventDefault();
   getName();
   getDate();
   getComment();
